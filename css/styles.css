@@ -1,0 +1,164 @@
+body{
+	background-color: #d6cbd3
+}
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 480px){
+	.container{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.experience-style, .education-style {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	#float-text{
+		font-family: 'Playfair Display', serif;
+		position: absolute;
+		top: 35%;
+		padding-left: 2%;
+		width: 100%;
+		z-index: 3;
+		color: white;
+		font-size: 24px;
+	}
+	#mobile-image{
+		display: block;
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: cover;
+		content: url("../img/criminal-justice.jpg");
+	}
+
+}
+@media (min-width: 481px){
+	.container{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.experience-style, .education-style {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	#float-text{
+		font-family: 'Playfair Display', serif;
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		z-index: 3;
+		color: white;
+		font-size: 24px;
+	}
+	#float-text div:first-child{
+		position: relative;
+		left: -50%;
+	}
+	#main-image{
+		background-image: url(../img/criminal-justice.jpg);
+		background-attachment: fixed;
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  	}
+  	#mobile-image{
+  		display: none;
+  	}
+}
+
+.wide-expand{
+	width: 100%;
+	height: 40%;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#about-me img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin-bottom: 25px;
+	object-fit: cover;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.contact-style{
+	/*padding-left: 120px;*/
+}
+.default-background{
+	background-color: white;
+}
+
+#experience-container, #education-container, #contact-me-container{
+	padding-top: 50px;
+}
+#contact-me-container h1{
+	padding-bottom: 20px;
+}
+
+.experience-row{
+	padding-bottom: 30px;
+}
+.experience-inner-col div:nth-child(4){
+	padding-bottom: 10%;
+}
+
+.experience-inner-col{
+	padding-left: 30px;
+}
+
+
+.footer-background{
+	background-color: #f0efef;
+	padding-bottom: 100px;
+}
+
+form .form-row{
+	margin-right:0px;
+	margin-left: 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	padding-bottom: 10px;
+}
+#image-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*height: 803px;*/
+	z-index: 2;
+	opacity: 0.3;
+	background-color: blue;
+}
+
+
